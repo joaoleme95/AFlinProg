@@ -1,0 +1,90 @@
+body {
+    background-color: #f0f2f5;
+    font-family: Arial, sans-serif;
+    display: flex;
+    justify-content: center;
+    min-height: 100vh;
+    margin-top: 250px;
+    background-image: url('https://img.freepik.com/fotos-gratis/vista-elevada-de-multicoloured-esponja-cima-a-topo-de-experiencia-preta_23-2147860484.jpg?t=st=1718403097~exp=1718406697~hmac=e1198d3c47a73948e0c61bc92ef295efb21913e48fe2cada8bd77c7d3ce549c3&w=1380');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+#titulo {
+    font-family: 'Zilla Slab', serif;
+    font-weight: 700;
+    color: #f0f2f5;
+}
+
+#novaTarefa{
+    font-family: 'Zilla Slab', serif;
+    font-weight: 400;
+}
+
+#adicionarTarefaButton{
+    font-family: 'Zilla Slab', serif;
+    font-weight: 500;
+}
+
+#listaDeTarefas{
+    font-family: 'Zilla Slab', serif;
+    font-weight: 500;
+}
+
+.container {
+    width: 100%;
+    max-width: 800px;
+}
+
+header {
+    margin-bottom: 20px;
+}
+
+footer {
+    margin-top: 20px;
+}
+
+.list-group-item {
+    transition: transform 0.2s ease-in-out;
+}
+
+.list-group-item:hover {
+    transform: scale(1.02);
+}
+
+.completed {
+    text-decoration: line-through;
+    color: #6c757d;
+}
+
+.btn-custom-primary {
+    background-color: #b37a00;
+    color: #f0f2f5;
+    border: none;
+}
+
+.btn-custom-warning {
+    background-color: #FFC107;
+    color: #f0f2f5;
+    border: none;
+}
+
+.btn-custom-success {
+    background-color: #28a745;
+    color: #f0f2f5;
+    border: none;
+}
+
+.btn-custom-danger {
+    background-color: #dc3545;
+    color: #f0f2f5;
+    border: none;
+}
+
+.input-group-append .btn {
+    display: flex;
+    align-items: center;
+}
+
+
